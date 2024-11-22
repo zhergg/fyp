@@ -9,7 +9,7 @@ import time
 
 # Load the Logistic Regression model and vectorizer
 log_model = joblib.load(logistic_regression_model.pkl)
-vectorizer = joblib.load(r'C:\Users\USER\Documents\vscode\vectoriser.pkl')
+vectorizer = joblib.load(vectoriser.pkl)
 
 # Initialize the SQLite database
 conn = sqlite3.connect('users.db', check_same_thread=False)
