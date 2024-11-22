@@ -12,7 +12,7 @@ log_model = joblib.load(logistic_regression_model.pkl)
 vectorizer = joblib.load(vectoriser.pkl)
 
 # Initialize the SQLite database
-conn = sqlite3.connect('users.db', check_same_thread=False)
+conn = sqlite3.connect(users.db, check_same_thread=False)
 c = conn.cursor()
 
 # Create user and comment tables if they don't exist
