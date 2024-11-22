@@ -8,7 +8,7 @@ import string
 import time
 
 # Load the Logistic Regression model and vectorizer
-log_model = joblib.load(r'C:\Users\USER\Documents\vscode\logistic_regression_model.pkl')
+log_model = joblib.load(logistic_regression_model.pkl)
 vectorizer = joblib.load(r'C:\Users\USER\Documents\vscode\vectoriser.pkl')
 
 # Initialize the SQLite database
