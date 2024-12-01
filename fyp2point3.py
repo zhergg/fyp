@@ -5,10 +5,10 @@ import joblib
 import re
 import unidecode
 import string
-import time
+import time  
 
 # Load the Logistic Regression model and vectorizer
-log_model = joblib.load('logistic_regression_model.pkl')
+log_model = joblib.load('logistic_regression_model2.pkl')
 vectorizer = joblib.load('vectoriser.pkl')
 
 # Initialize the SQLite database
